@@ -1,0 +1,5 @@
+      # Set up python to be able to run python scripts
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
